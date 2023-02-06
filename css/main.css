@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item div:not(.row){
+    background: blueviolet;
+    border: #ffffff solid 2px;
+    min-height: 100px;
+}
+.item{
+    width: 47%;
+    margin: 10px auto;
+}
